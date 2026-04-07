@@ -67,9 +67,13 @@ python run.py
 🛠 Технологии
 
 FastAPI — современный высокопроизводительный веб-фреймворк
+
 Hugging Face Transformers — работа с языковыми моделями
+
 ruGPT-3 Large (sberbank-ai/rugpt3large_based_on_gpt2) — лучшая открытая русская модель
+
 Jinja2 + Tailwind CSS — красивый фронтенд
+
 Pydantic — валидация данных
 
 
@@ -77,7 +81,7 @@ Pydantic — валидация данных
 📁 Структура проекта
 
 
-
+```bash
 ai-content-generator/
 ├── run.py                  # Запуск сервера
 ├── requirements.txt
@@ -89,8 +93,7 @@ ai-content-generator/
 │   │   └── content.py      # Эндпоинты API
 │   └── templates/
 │       └── index.html      # Веб-интерфейс
-
-
+```
 
 📡 API Эндпоинты
 

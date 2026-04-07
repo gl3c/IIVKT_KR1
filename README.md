@@ -32,11 +32,12 @@
 ```bash
 git clone https://github.com/ВАШ_НИК/ai-content-generator.git
 cd ai-content-generator
+```
 
 
 
 2. Создайте виртуальное окружение
-Bash
+```bash
 python -m venv venv
 
 # Windows
@@ -44,21 +45,23 @@ venv\Scripts\activate
 
 # macOS / Linux
 # source venv/bin/activate
+```
 
 3. Установите зависимости
-
+```bash
 pip install -r requirements.txt
 
 # PyTorch для CPU
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
 
 4. Запустите проект
-
+```bash
 python run.py
 
 
 Откройте в браузере: http://127.0.0.1:8000
-
+```
 
 
 🛠 Технологии
